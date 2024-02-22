@@ -1,0 +1,5 @@
+goto(a, 0)
+goto(a, b)
+goto(-a, b)
+goto(-a, 0)
+goto(0, 0)

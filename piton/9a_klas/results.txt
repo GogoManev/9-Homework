@@ -1,0 +1,5 @@
+Uchenitsite s shestica sa: ['Dilyana Kamenova Vasileva', 'Ivaneta Vasileva Ivanova', 'Ignat Velinov Stoychev', 'Kristiyan Miroslavov Kulekov']
+Broqt uchenici s chetvorka sa 12
+Sredno aritmetichnata ocenka e: 4.221153846153846
+Kontrolnoto beshe trudno
+Data: 03.01.2024, Chas: 20:07:55

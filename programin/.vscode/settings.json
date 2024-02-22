@@ -1,0 +1,18 @@
+{
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "random": "c",
+        "transformation.h": "c",
+        "stdlib.h": "c",
+        "MAIN.C": "cpp",
+        "mystrings.h": "c",
+        "safeint.h": "c",
+        "array": "cpp",
+        "compare": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "stdio.h": "c"
+    }
+}

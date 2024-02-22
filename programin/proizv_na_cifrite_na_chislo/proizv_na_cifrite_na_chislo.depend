@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1695712632 source:c:\users\georg\desktop\programin\programin\proizv_na_cifrite_na_chislo\main.c
+	<stdio.h>
+	<stdlib.h>
+
