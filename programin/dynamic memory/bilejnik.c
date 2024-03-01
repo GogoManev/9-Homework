@@ -15,8 +15,10 @@ int main()
 
     printf("Vuvedi ocenki: \n");
     for(int i = 0; i < count; i++){
-        printf("Vuvedi ocenka %d: ", i+1);
-        scanf("%f", &grades[i]);
+        do{
+            printf("Vuvedi ocenka %d: ", i+1);
+            scanf("%f", &grades[i]);
+        }while(grades[i] < 2 || grades[i] > 6);
     }
 
     int choice = 0;
@@ -43,15 +45,14 @@ int main()
                     printf("Error allocating memory \n");
                     return 1;
                 }
-
-                for (int i = count; i < count+1; i++) {
-                    printf("Vuvedi ocenka %d: ", i+1);
-                    scanf("%f", &grades[i]);
-                }
+                    printf("Vuvedi ocenka %d: ", count+1);
+                    scanf("%f", &grades[count]);
+                
                 count++;
                 break;
             case 3:
                 if(count != 1){
+                    grades = (float *)realloc(grades, (count - 1)*sizeof(float));
                     count--;
                     printf("Poslednata ocenka e iztrita");
                 }else{
